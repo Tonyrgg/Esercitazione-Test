@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+}
+
+.sidebar {
+    width: 30%;
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+.rett-viola {
+    width: 80%;
+    height: 50px;
+    background-color: violet;
+    margin-top: 10px;
+} 
+
+.sezione2 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topbar {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    height: 50px;
+    align-items: center;
+    background-color: beige;
+    top: 0%;
+}
+
+.dh1 {
+    background-color: gray;
+    padding: 7px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.sez-centrale {
+    display: flex;
+    background-color: rosybrown;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    flex-basis: 40%;
+}
+
+.rett-rosa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+    align-items: center;
+}
+
+.rett-rosa input {
+    border: none;
+    padding: 10px 10px 10px 25px;
+    border-radius: 5px;
+}
+
+.dh2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.sez-bottom {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.palla {
+    height: 40px;
+    width: 40px;
+    background-color: gray;
+    border-radius: 100%;
+    margin: 20px;
+}
+
